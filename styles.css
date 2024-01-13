@@ -1,0 +1,36 @@
+body{background-color: black; color: white; font-family: 'Inter';font-size: 24px;
+    width: 1578px; height: 1020px;position: relative;}
+form{width: 1181px; height: 712px;position: relative;top: 154px;left:198px;}
+h1{width: 600px;height: 144px; ; position: relative;top: 154px;left:202px;
+    font-weight: 400;font-size: 64px; line-height: 77.45px;}
+.box{width: 1177px;height: 46.01px;border-bottom: 1px solid white;margin-bottom: 10px;}
+.boxLast{width: 1177px;height: 46.01px;border-bottom: 1px solid rgb(0, 0, 0);margin-bottom: 10px;}
+input {
+    background-color: black; border: 0px; font-family: 'Inter'; font-size: 24px;
+  }
+  ::placeholder {
+    color: white; font-family: 'Inter';
+  }
+  #dat{color: white;}
+  #but{width: 226px; height: 58px;}
+  button{font-size: 24px;}
+
+  input[type=radio] {
+    appearance: none;
+    padding: 7px;
+    background-color: black;
+    border-radius:50%;
+    border: 1px solid white;
+ }
+ input[type=radio]:checked {
+    background-color: blue;
+ }
+ input[type=checkbox] {
+    appearance:none;
+    padding: 5px;
+    background-color: black;
+    border: 1px solid white;
+ }
+ input[type=checkbox]:checked {
+    background-color: blue;
+ }

@@ -1,0 +1,86 @@
+<!--Project Objective
+Make your first HTML project, add the necessary head tags - give a suitable title, favicon, desc and link the stylesheet.
+Divide the body tag into respective header, main and footer tags.
+In the body make a signup form as shown in the given figma file: Signup Form. Make sure to include all fields (email, passwords, confirm passwords, date of birth, radio buttons and checkbox).
+Add a button of the type submit and also wrap all of these inputs in a form.
+Make sure all the input tags are required.
+To get familiar with figma, you can refer to the video: https://vimeo.com/770721192/308c5c22c6-->
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Sign Up Form</title>
+    <link
+      rel="icon"
+      type="image/x-icon"
+      href="https://img.freepik.com/free-vector/illustration-paper_53876-5846.jpg?w=826&t=st=1705132180~exp=1705132780~hmac=3d26bfd22ad422bcec9e57a9e320ee20aae90725367b550b24c5504348209434"
+    />
+    <meta name="desc" content="This is a sign up form." />
+    <link rel="stylesheet" type="text/css" href="styles.css" />
+    <link
+      href="https://fonts.googleapis.com/css?family=Inter"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <header><h1>Sign Up</h1></header>
+    <main>
+      <form method="post" class="suForm">
+        <div class="box">
+          <label for="fullName"></label>
+          <input type="text" name="fullName" placeholder="Full Name" required />
+          <br />
+        </div>
+        <div class="box">
+          <label for="email"></label>
+          <input type="email" name="email" placeholder="Email" required />
+        </div>
+        <div class="box">
+          <label for=""></label>
+          <input
+            type="password"
+            name="password"
+            placeholder="Password"
+            required
+          />
+        </div>
+        <div class="box">
+          <label for=""></label>
+          <input
+            type="password"
+            name="cpassword"
+            placeholder="Confirm Password"
+            required
+          />
+        </div>
+        <div class="box">
+          <label for=""></label
+          ><input
+            type="date"
+            name=""
+            placeholder=""
+            id="dat"
+            format="yyyy-mm-dd"
+            required
+          />
+        </div>
+        <div class="box">
+          <input type="radio" name="one" required /><label for=""
+            >Student</label
+          >
+          &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+          <input type="radio" name="one" required /><label for=""
+            >Employee</label
+          >
+        </div>
+        <div class="boxLast">
+          <input type="checkbox" name="check" placeholder="" required />
+          <label for="check">I agree to all the Terms and conditions</label>
+        </div>
+        <button type="submit" id="but">Signup</button>
+      </form>
+    </main>
+    <footer></footer>
+  </body>
+</html>
